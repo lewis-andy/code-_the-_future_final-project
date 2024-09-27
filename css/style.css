@@ -1,0 +1,251 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-links li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+/* Parallax Hero Section */
+.hero {
+    height: 500px;
+    background-image: url('../img/cropped-photo-afro-american-muscular-man-checking-time.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+/* Parallax Sections */
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.pimg1 {
+    background-image: url('../img/11873.jpg');
+}
+
+.pimg2 {
+    background-image: url('../img/closeup-shot-golden-watch-isolated.jpg');
+}
+
+.pimg3 {
+    background-image: url('../img/e7d546d3-e868-4e14-9e3c-46bffc100576.jpeg');
+}
+
+/* Text Overlay on Parallax Images */
+.ptext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.ptext .border {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.light-mode {
+    color: #fff;
+}
+
+.dark-mode {
+    color: #fff;
+}
+
+/* Dark Section Styling */
+.section-dark {
+    padding: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* Back to Top Button */
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.section-dark {
+    background-color: #474040;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.light-mode {
+    color: #fff;
+}
+
+.dark-mode {
+    color: #ccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+/* Center the content of sections */
+.section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Center the text with margin auto */
+.section p {
+    margin: 0 auto;
+    max-width: 800px; /* Adjust this to fit the width you prefer */
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Center the headings */
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Add spacing between each paragraph */
+.section p {
+    margin-bottom: 30px;
+}
+
+/* Add some padding to the sections */
+.section-dark {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+.bebas {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.border {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.light-mode {
+    color: #fff;
+}
+
+.dark-mode {
+    color: #1c4d85;
+}
